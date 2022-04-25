@@ -48,8 +48,14 @@ body{
     left: 50%;
     margin-left: -175px ;
     width: 350px;
+    /*-webkit-box-reflect:inherit 10px; 
+    filter: drop-shadow(auto 5mm 5mm rbga);*/
+    
 
 }
+.plam{
+    -webkit-box-reflect:below 0px linear-gradient(transparent 92%,white 120%);
+    }
 .content{
     padding: 3em 4em 2em;
 }
